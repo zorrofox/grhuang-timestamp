@@ -37,6 +37,6 @@ server.pre(function(req, res, next) {
 server.get('/:timestr', response);
 server.head('/:timestr', response);
 
-server.listen(80, function() {
+server.listen((process.env.PORT || 5000), function() {
 	console.log('%s listening at %s', server.name, server.url);
 });
