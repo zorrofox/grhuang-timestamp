@@ -1,0 +1,23 @@
+{
+	"name": "grhuang-timestamp-microservice",
+	"version": "0.0.1",
+	"description": "A microservice for timestamp",
+	"dependencies":{
+		"restify":"~4.1.1"
+	},
+	"engines" :{
+		"node": "4.2.1"
+	},
+	"main": "index.js",
+	"repository":{
+		"type":"git",
+		"url": "https://github.com/zorrofox/grhuang-timestamp.git"
+	},
+	"keywords":[
+		"node",
+		"microservice",
+		"timestamp",
+		"freecodecamp",
+		"restify"
+	]
+}
